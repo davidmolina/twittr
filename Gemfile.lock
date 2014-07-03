@@ -146,7 +146,7 @@ DEPENDENCIES
   haml-rails
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (~> 0.17.1)
   pry-rails
   rails (= 4.1.1)
   rails_12factor

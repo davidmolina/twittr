@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.2'
 
 #################
 # Server and DB #
@@ -38,4 +39,9 @@ group :development do
 	gem 'pry-rails'
 	gem 'better_errors'
 	gem 'spring'	
+end
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
 end

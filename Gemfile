@@ -6,7 +6,6 @@ ruby '2.1.2'
 #################
 
 gem 'rails', '4.1.1'
-gem 'sqlite3'
 
 #############
 # Front-end # 
@@ -38,7 +37,8 @@ gem 'jbuilder', '~> 2.0'
 group :development do
 	gem 'pry-rails'
 	gem 'better_errors'
-	gem 'spring'	
+	gem 'spring'
+	gem 'sqlite3', '~> 1.3.9'	
 end
 
 group :production do

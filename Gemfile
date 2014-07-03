@@ -8,7 +8,7 @@ ruby '2.1.2'
 gem 'rails', '4.1.1'
 
 #############
-# Front-end # 
+# Front-end #
 #############
 
 gem 'sass-rails', '~> 4.0.3'
@@ -40,6 +40,10 @@ group :development do
 	gem 'better_errors'
 	gem 'spring'
 	gem 'sqlite3'
+end
+
+group :doc do
+  gem 'sdoc', '0.3.20', require: false
 end
 
 group :production do

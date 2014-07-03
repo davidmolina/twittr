@@ -142,6 +142,7 @@ DEPENDENCIES
   autoprefixer-rails
   better_errors
   bootstrap-sass (~> 3.2.0)
+  coffee-rails (~> 4.0.0)
   font-awesome-rails
   haml-rails
   jbuilder (~> 2.0)
